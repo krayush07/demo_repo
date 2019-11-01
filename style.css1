@@ -74,12 +74,15 @@ color: #fff;
     
 }
 <!--------------About------------------>
-.post-2
+.post-2 p
 {
   padding-left: 100px;
   padding-top: 50px;
-  border: 5px solid #4CAF50; 
-    
+}
+.post-2 h1
+{
+padding-left: 100px;
+padding-top: 50px;
 }
 
 .nav-bar
