@@ -70,13 +70,14 @@ color: #fff;
 @keyframes mover
 {
     0%{transform: translateY(0);}
-    100%{transform: translateY(10px);}
+    100%{transform: translateY(5px);}
     
 }
 <!--------------About------------------>
 .post-2
 {
-  padding: 300px;
+  padding-left: 100px;
+  padding-top: 50px;
   border: 5px solid #4CAF50; 
     
 }
