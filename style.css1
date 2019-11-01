@@ -90,7 +90,7 @@ color: #fff;
 }
 .navbar
 {
-    background-color: #bfaaa8;
+    background-color: #cccae0;
 }
 .nav-bar .fa-bars
 {
