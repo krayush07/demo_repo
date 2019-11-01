@@ -74,17 +74,17 @@ color: #fff;
     
 }
 <!--------------About------------------>
-.content-area
+.about
 {
 height: 500px;
 width:250px;
 }
-.content-area p
+.about p
 {
 border: 4px solid white;
   margin: 30px;
 }
-.content-area h1
+.about h1
 {
  margin: 25px;
 }
