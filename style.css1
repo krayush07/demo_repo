@@ -95,16 +95,13 @@ color: #fff;
 .nav-bar .fa-bars
 {
     font-size: 35px;
-    color: #000;
+    color: ##cccae0;
 }
 .navbar-toggler
 {
     outline: none !important;
 }
-.navbar-toggler
-{
-    outline: none !important;
-}
+
 .navbar-nav
 {
     float: right;
@@ -113,7 +110,7 @@ color: #fff;
 }
 .nav-link
 {
-    color: #fff !important;
+    color: #000 !important;
 }
 
 
