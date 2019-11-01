@@ -45,6 +45,33 @@ body {
 color: #fff;
     
 }
+.scroll-btn
+{
+    bottom: 30px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);  
+    border: 1px solid #fff;
+    padding: 10px 10px 20px;
+    border-radius: 30px;
+}
+.scroll-bar span
+{
+    border: 2px solid #fff;
+    font-size: 10px;
+    border-radius: 30 px;
+}
+
+.scroll-bar
+{
+    animation: mover 1s infinite alternate;
+}
+@keyframes mover
+{
+    0%{transform: translateY(0);}
+    100%{transform: translateY(10px);}
+    
+}
 
 
 
