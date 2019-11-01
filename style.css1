@@ -95,7 +95,7 @@ color: #fff;
 .nav-bar .fa-bars
 {
     font-size: 35px;
-    color: ##cccae0;
+    color: #9087e6;
 }
 .navbar-toggler
 {
