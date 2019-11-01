@@ -7,7 +7,7 @@ body {
 #header
 {
     
-    height: 150px;
+    height: 500px;
     background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(images/background.jpg);
     background-position: center;
     background-size: cover;
@@ -31,3 +31,20 @@ body {
     
     
 }
+
+.user-box h1
+{
+  color: #fff;
+    font-weight: bold;
+    margin: 10 px;
+    
+    
+}
+.user-box p
+{
+color: #fff;
+    
+}
+
+
+
