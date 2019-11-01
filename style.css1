@@ -18,7 +18,7 @@ body {
 {
     top:20%;
     left:5%;
-    transform: translate(-50%,-50%);
+    transform: translate(-20%,-20%);
     position: absolute;
     
     
