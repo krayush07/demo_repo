@@ -91,5 +91,10 @@ color: #fff;
 {
     background-color: #bfaaa8;
 }
+.nav-bar .fa-bars
+{
+    font-size: 35px;
+    color: #fff;
+}
 
 
