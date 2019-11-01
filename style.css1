@@ -7,7 +7,7 @@ body {
 #header
 {
     
-    height: 500px;
+    height: 100vh;
     background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(images/background.jpg);
     background-position: center;
     background-size: cover;
@@ -26,8 +26,8 @@ body {
 .user-box img
 {
    border-radius: 50%;
-    width: 400px;
-    border: 4px solid #6caed5;
+    width:250px;
+    border: 2px solid #6caed5;
     
     
 }
