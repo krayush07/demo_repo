@@ -128,3 +128,20 @@ top: 50%;
     z-index: 1;
     width:80px;
 }
+.social-icons ul
+{
+    padding: initial;
+    
+}
+.social-icons ul li
+{
+    height: 40px;
+    width: 40px;
+    list-style-type: none;
+    padding-left: 12px;
+    padding-top: 6px;
+    margin-top: 5px;
+    color: #fff;
+    background: #000;
+    
+}
