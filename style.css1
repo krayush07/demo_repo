@@ -78,6 +78,8 @@ color: #fff;
 {
 height: 500px;
 width:250px;
+margin-left: 50px;
+margin-right: 150px;
 }
 .about p
 {
@@ -148,3 +150,10 @@ top: 50%;
     background: #000;
     
 }
+.social-icons ul li:hover
+{
+    padding-left: 30px;
+    width: 80px;
+    transition: 1s; 
+}
+
