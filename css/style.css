@@ -149,20 +149,51 @@ header {
 /*-- //header --*/
 
 /*-- banner --*/
+
+.banner-info {
+    position: absolute;
+    top: 40%;
+    left: 3%;
+}
+
+.banner-info h4 {
+    position: relative;
+    color: rgba(0, 0, 0, .3);
+    font-size: 2em;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 145px;
+}
+
+.banner-info h4:before {
+    content: attr(data-text);
+    position: absolute;
+    overflow: hidden;
+    max-width: 14em;
+    white-space: nowrap;
+    color: #fff;
+    animation: loading 8s linear;
+}
+@keyframes loading {
+    0% {
+        max-width: 0;
+    }
+}
+
 .banner{
-	background:url(../images/b1.jpg) no-repeat 0px 0px;
+    background:url(../images/Backgrounds1.jpg) no-repeat 0px 0px;
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	-ms-background-size:cover;
-    min-height: 765px;
+    min-height: 700px;
 	position: relative;
 }
 .banner-layer {
     background: url(../images/layer.png)repeat;
     background: rgba(0, 0, 0, 0.5);
-    min-height: 765px;
+    min-height: 700px;
 }
 .agile_banner_margin {
     padding: 18em 0em 0em;
@@ -170,7 +201,7 @@ header {
 .image_margin {
     margin-top: 8em;
 }
-.agile_banner_info h2 {
+.agile_banner_info h1{
     font-size: 40px;
     color: #fff;
     text-transform: uppercase;
@@ -178,17 +209,17 @@ header {
     letter-spacing: 3px;
      text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
 }
-.agile_banner_info h4 {
+.agile_banner_info h2 {
     text-transform: capitalize;
     color: #fff;
     letter-spacing: 1px;
-    font-size: 22px;
-    margin-top: 8px;
+    font-size: 3em;
+    margin-top: 300px;
     font-weight: 600;
-    margin-bottom: 25px;
+   
      text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
 }
-.agile_banner_info h5 {
+/*-- .agile_banner_info h3 {
     text-transform: capitalize;
     color: #fff;
     letter-spacing: 1px;
@@ -196,7 +227,7 @@ header {
     margin-bottom: 5px;
     font-weight: 600;
      text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-}
+}-*/
 .agile_banner_info p{
     color: #fff;
     margin: 1em 0;
@@ -239,6 +270,10 @@ header {
     letter-spacing: .5px;
     font-size: 14px;
 }
+
+
+
+
 
 
 .w3_agile_head h5 span{
@@ -331,8 +366,20 @@ h3.agile_tittle.two {
     margin-bottom: 0!important;
 }
 
-.progress-bar {
-    background-color: #191919;
+.progress-bar1 {
+    background-color: #3262a8;
+}
+.progress-bar2 {
+    background-color: #031736;
+}
+.progress-bar3 {
+    background-color: #199123;
+}
+.progress-bar4 {
+    background-color: #96a31d;
+}
+.progress-bar5 {
+    background-color: #ad5715;
 }
 
 .bar-grids h6 {
@@ -347,6 +394,7 @@ h3.agile_tittle.two {
     float: right;
     font-size: 1em;
 }
+
 
 .progress-striped .progress-bar,
 .progress-bar-striped {
@@ -410,8 +458,8 @@ h3.heading:after {
 }
 /*-- // services --*/
 
-/*-- experience --*/
-.exp-grids {
+/*-- Timeline --*/
+/*-- .exp-grids {
     margin-top: 5em;
 }
 .exp-grids h4,.exp-grid1 h4 {
@@ -453,8 +501,35 @@ h3.heading:after {
 .exp1 {
     padding-left: 3em;
      background: #222;
+}--*/
+.experience {
+    background: url(../images/exp.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    padding: 2em 0;
 }
-/*-- //experience --*/
+h3.tittle-w3 {
+    font-size: 45px;
+    text-align: center;
+    color: #333;
+    font-weight: 600;
+    letter-spacing: 5px;
+    position: relative;
+}
+h3.tittle-w3:after {
+    position: absolute;
+    content: '';
+    width: 10%;
+    height: 3px;
+    background: #333;
+    left: 45%;
+    bottom: -18%;
+}
+
+/*-- //Timeline --*/
 
 /*-- blog -*/
 .blog {
@@ -582,10 +657,13 @@ a.sb {
 }
 /*-- //projects --*/
 
-/*-- clients--*/
+/*-- Achievement--*/
+.testimonial h3.heading{
+margin-bottom: 60px;
+}
 .testimonials {
     background: #333;
-	background:url(../images/test.jpg) no-repeat 0px 0px;
+	background:url(../images/testy.jpg) no-repeat 0px 0px;
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -642,7 +720,7 @@ i.fa.fa-quote-right, i.fa.fa-quote-left {
     margin: 0 1em;
     color: #fff;
 }
-/*-- //clients--*/
+/*-- //Achievement--*/
 
 /*--  contact --*/
 .contact-grids {
@@ -981,7 +1059,7 @@ footer {
 		font-size: 28px;
 		letter-spacing: 0px;
 	}
-	.agile_banner_info h4 {
+	.agile_banner_info h3 {
 		font-size: 17px;
 	}
 	h3.heading {
