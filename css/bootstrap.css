@@ -1303,6 +1303,8 @@ pre code {
     -ms-flex: 0 0 33.333333%;
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
+    text-align: justify;
+    text-justify: inter-word;
   }
   .col-lg-5 {
     -webkit-box-flex: 0;

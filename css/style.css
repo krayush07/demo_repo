@@ -795,13 +795,13 @@ label {
 
 /*-- footer --*/
 footer {
-    background:  #fcba03;
+    background:  #212529;
 }
 .social ul li {
     display: inline-block;
 }
 .social ul li a {
-    color:  #fcba03;
+    color:  #f8f9fa;
     text-align: center;
 }
 .social ul li a i {
@@ -809,7 +809,7 @@ footer {
     width: 42px;
     font-size: 30px;
    line-height: 30px;
-    color: #fcba03;
+    color: #f8f9fa;
 }
 .copyright p,.copyright p a{
     color: #999;
