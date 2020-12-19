@@ -377,6 +377,9 @@ h3.agile_tittle.two {
 .progress-bar5 {
     background-color: #ad5715;
 }
+.progress-bar6 {
+    background-color: #d239d7;
+}
 
 .bar-grids h6 {
     font-size: 15px;
@@ -529,7 +532,7 @@ h3.tittle-w3:after {
 
 /*-- blog -*/
 .blog {
-    background: url(../images/blog.jpg) no-repeat 0px 0px;
+    background: url(../images/blog_Fotor.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -655,11 +658,11 @@ a.sb {
 
 /*-- Achievement--*/
 .testimonial h3.heading{
-margin-bottom: 60px;
+margin-bottom: 100px;
 }
 .testimonials {
     background: #333;
-	background:url(../images/testy.jpg) no-repeat 0px 0px;
+	background:url(../images/testy_Fotor.jpg) no-repeat 0px 0px;
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -1212,7 +1215,7 @@ footer {
 
 /* Slideshow container */
 .slideshow-container1 {
-    background: url(../images/blog.jpg) no-repeat 0px 0px
+    background: url(../images/blog_Fotor.jpg) no-repeat 0px 0px
   max-width: 1000px;
   position: relative;
   margin: auto;
